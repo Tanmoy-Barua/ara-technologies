@@ -2,8 +2,8 @@ import React from 'react'
 
 const QualityServices = () => {
   return (
-    <div>
-        
+    <div className="qualityservices">
+
     </div>
   )
 }
