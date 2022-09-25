@@ -5,13 +5,9 @@ import Link from 'next/link';
 import {Images as ImageLink} from '../images'
 import ProductSlider from './ProductSlider'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const OurProduct = () => {
-  useEffect(()=>{
-    AOS.init();
-  })
   
   return (
     <>

@@ -7,6 +7,9 @@ body{
 a{
   text-decoration: none!important;
 }
+.col-15-percent{
+  width: 17%!important;
+}
 .bg-color-primary{
   background-color: var(--primary-color)
 }
@@ -54,7 +57,19 @@ p{
 }
 
 .dropdown:hover .dropdown-menu{
+  transition: all 0.8s ease-in-out;
   display: block;
+}
+.dropdown-item{
+  padding: 10px 10px!important;
+}
+.dropdown-item:active, .dropdown-item:hover {
+  color: white!important;
+  background-color: var(--primary-color)!important;
+}
+.dropdown-menu {
+  --bs-dropdown-padding-y: 0rem!important;
+  --bs-dropdown-divider-margin-y: 0rem!important;
 }
 
 /* shopnow button */
@@ -106,6 +121,253 @@ p{
 
 /* qualityservices */
 .qualityservices{
+  margin-top: 5%;
+  padding: 5% 0;
   background-image: url("../public/vendor/images/branch-bg.jpg");
   background-attachment: fixed;
+  height: 100%;
+}
+.service-heading h5, .quality-service-heading h5{
+  color: var(--secondary-color);
+}
+.service-heading h3, .quality-service-heading h3{
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.service-body{
+  margin-top: 30px;
+}
+.services-content{
+  position: relative;
+  margin-top: 20px;
+}
+.services-content img{
+  width: 423px!important;
+  height: 282px!important;
+  border-radius: 15px;
+}
+.service-overlay{
+  position: absolute;
+  width: 100%; 
+  height: 98%;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #061953ad 0%, #890000e0 100%);
+  top: 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-overlay h4{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+}
+.details{
+  background-color: transparent;
+  background-image: linear-gradient(240deg, #020A75 0%, #7C0000 67%);
+  border-radius: 11px;
+  padding: 16px 25px;
+  color: #fff;
+}
+.details:hover{
+  color: #FFF;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #8D0000 0%, #11007C 100%);
+}
+.icon{
+  display: inline-block;
+  padding: 15px;
+  margin: 2px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px
+}
+.icon:hover{
+  background-color: #172262;
+  color: #818a91;
+}
+.process-item{
+  display: table-cell;
+  border-radius: 8px;
+  height: 20px;
+}
+.process-item:hover{
+  transition: all 0.8s;
+  background-color: #FFA7A7;
+  cursor: pointer;
+}
+.process-item h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+.process-item p{
+  font-size: 14px;
+}
+
+.brand-slider{
+  margin: 20px 0;
+  padding: 10px;
+}
+.brand-slider .slick-slider{
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.image-ceo{
+  text-align: center;
+}
+.image-ceo img{
+  border-radius: 10px;
+}
+
+.ceo-details h4{
+  font-weight: bold;
+}
+
+.about-box{
+  margin-top: 50px;
+}
+
+.counter-rating, .counter-team{
+  padding: 10px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #3C00E4 0%, #A40202 100%);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.counter-client{
+  padding: 10px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #A40202 0%, #2D06AA 100%);
+  color: #fff;
+  border-radius: 10px;
+}
+.about-icon-content{
+  margin: 40px 0;
+}
+.about-icon svg{
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
+.corporate-customer-section{
+  margin: 30px 0 0;
+  background-image: url("../public/vendor/images/Corporate-tiny-Banking.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+.corporate-customer-heading{
+  padding: 5% 0;
+  background-color: rgba(255, 255, 255, 0.786);
+  height: 100%;
+}
+.corporate-customer-heading .heading svg{
+  color: var(--primary-color);
+  font-size: 50px;  
+}
+.corporate-customer-heading h4{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.support-item{
+  margin-top: 10px;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 50px;
+  color: white;
+  border-radius: 10px;
+}
+.support-item svg{
+  font-size: 45px;
+}
+.support-item h5{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn-find-more{
+  padding: 16px 25px;
+  background-color: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.8s;
+}
+.btn-find-more:hover{
+  background-color: var(--button-hover-color);
+  color: white;
+}
+
+.client-section{
+  background-image: url("../public/vendor/images/endBanner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+.client-section-main{
+  padding: 5% 0;
+  background-color: #690202b0;
+  height: 100%;
+}
+
+.client-section-main h3{
+  color: #fff;
+  font-weight: bold;
+}
+.client-section-main p{
+  color: white
+}
+.client{
+  position: relative;
+}
+.client svg{
+  position: absolute;
+  fill: white!important;
+  transform: rotate(180deg);
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+}
+.clientbox{
+  background-color: #FFFFFFB3;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.8s linear;
+  transform: scale(0.7);
+}
+.clientbox:hover{
+  transform: scale(0.9);
+}
+
+.about-company p{
+  margin-top: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+.contact-details{
+  margin-left: 30px;
+}
+.contact-details ul li a, .showroom-whatsapp ul li a{
+  color: black;
+  transition: all .2s linear;
+}
+.contact-details ul li a:hover, .showroom-whatsapp ul li a:hover{
+  color: #0084d6;
+}
+
+.showroom-whatsapp .whatsapp{
+  padding: 10px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 10px;
+}
+
+.whatsapp span{
+  font-size: 17px;
 }

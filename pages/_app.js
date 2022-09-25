@@ -13,10 +13,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 import 'animate.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
+    AOS.init();
     require("../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
