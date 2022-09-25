@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #690202;
+    --secondary-color: #110049; 
+
+    /* social icon hover color */
+    --social-icon-hover-color: #ff0d0d;
+
+    /* button hover color */
+    --button-hover-color: #b10000;
+}
