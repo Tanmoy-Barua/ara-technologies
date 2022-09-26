@@ -31,7 +31,7 @@ const CorporateCustomer = () => {
                     <div className="col-md-12">
                         <div className="text-center">
                             <a href="mailto:sales7@aratechbd.com" className="text-dark fs-4 fw-bold">sales7@aratechbd.com</a>
-                            <div className="mt-4">
+                            <div className="my-4">
                     <Link href="/contact-us">
                         <a className="text-uppercase btn-find-more">Find Out More</a>
                     </Link>

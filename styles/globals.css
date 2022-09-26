@@ -3,6 +3,7 @@
 
 body{
   font-family: 'Lato', sans-serif!important;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none!important;
@@ -370,4 +371,76 @@ p{
 
 .whatsapp span{
   font-size: 17px;
+}
+
+.bottom-footer{
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: var(--primary-color);
+}
+
+/* common banner */
+.common-banner{
+  /* background-image: url("../public/vendor/images/contact.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100px; */
+}
+
+
+@media (max-width: 575.98px) { 
+  .col-15-percent{
+    text-align: center;
+    width: 100%!important;
+    margin: 20px 0;
+  }
+  .rocess-item{
+    box-shadow: 0;
+  }
+  .services-content h4{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .service-button{
+    width: 100%!important;
+  }
+  .service-button a{ 
+    padding: 16px 13px;
+  }
+  .view-more{
+    padding: 10px 15px;
+  }
+  .service-heading h3{
+    font-size: 20px
+  }
+  .service-heading h5{
+    font-size: 14px
+  }
+  .btn-shop-now{
+    margin-bottom: 10px;
+  }
+  .navbar-collapse{
+    margin-bottom: 16px;
+  }
+  .counter-rating, .counter-client, .counter-team{
+    margin: 10px 0;
+  }
+  .corporate-customer-heading .heading svg{
+    font-size: 30px;
+  }
+  .corporate-customer-heading .heading h4{
+    font-size: 18px;
+  }
+  .contact-details{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .process-item{
+    width: 60%;
+    
+  }
+  .process-item p{
+    /* display: ; */
+  }
 }

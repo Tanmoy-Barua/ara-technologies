@@ -8,8 +8,12 @@ const QualityServices = () => {
     <div className="qualityservices">
         <div className="service-heading">
             <div className="container text-center">
-            <h5>WHAT WE OFFER</h5>
-            <h3>We Provide Quality Service</h3>
+                <div className="row">
+                    <div className="col-md-12">
+                    <h5>WHAT WE OFFER</h5>
+                    <h3>We Provide Quality Service</h3>
+                    </div>
+                </div>
             </div>
         </div>
         <div className="service-body">

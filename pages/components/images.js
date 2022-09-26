@@ -57,6 +57,9 @@ import brackngo from '../../public/vendor/images/clients/brackngo.png'
 import gp from '../../public/vendor/images/clients/gp.png'
 import link3 from '../../public/vendor/images/clients/220px-Link3_Technologies_Ltd_Logo.svg.png'
 
+// common banner
+import contactusBanner from '../../public/vendor/images/contact.jpg'
+
 export const Images = {
     TitleIcon,
     logo,
@@ -108,4 +111,5 @@ export const Images = {
     brackngo,
     gp,
     link3,
+    contactusBanner
 }

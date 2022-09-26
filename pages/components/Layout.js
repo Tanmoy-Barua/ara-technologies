@@ -20,7 +20,7 @@ import {
 
 const Layout = ({children}) => {
     const {asPath} = useRouter();
-    // console.log();
+    const date = new Date().getFullYear();
   return (
     <> 
     <Head>
@@ -28,13 +28,13 @@ const Layout = ({children}) => {
     </Head>
     <div>
     {/* top header */}
-    <div className="top-head bg-color-primary">
+    <div className="top-head bg-color-primary d-none d-md-block">
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
-                    <p className="text-uppercase text-white">ISO 9001:2015 CERTIFIED COMPANY</p>
+                <div className="col-12 col-md-6">
+                    <p className="text-uppercase text-white text-center text-lg-start">ISO 9001:2015 CERTIFIED COMPANY</p>
                 </div>
-                <div className="col-md-6 ms-auto">
+                <div className="col-12 col-md-6 ms-auto">
                     <div className="d-flex justify-content-end">    
                     <p className="telephone text-white">Hotline: 01678004434-59</p>
                     <ul className="list-unstyled d-flex">
@@ -154,7 +154,7 @@ const Layout = ({children}) => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/contactus">
+            <Link className="nav-link" href="/contact-us">
                 <a className={asPath === '/contactus' ? "nav-link active text-uppercase" : "nav-link text-uppercase"}>Contact Us</a> 
             </Link>
           </li>
@@ -197,6 +197,18 @@ const Layout = ({children}) => {
                     <li className="my-3"><a href="#"><span className="text-decoration-underline">Chattogram Showroom:</span><br/>72 Shah Amanat City Corporation Market, Chattogram</a></li>
                   </ul>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bottom-footer">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 col-md-6">
+                  <p className="text-white text-center text-lg-start">Copyright © {date} ARA Technologies Limited | Since 2005</p>
+                </div>
+                <div className="col-12 col-md-6">
+                  <p className="text-white text-center text-lg-end">Design & Developed by MakeupCoders</p>
                 </div>
               </div>
             </div>

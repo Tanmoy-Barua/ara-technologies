@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import Head from 'next/head'
 import { useEffect } from "react";
 import Layout from './components/Layout'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -24,9 +25,11 @@ function MyApp({ Component, pageProps }) {
     require("../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
+    <>
     <Layout>
       <Component {...pageProps} />
     </Layout>
+    </>
   )
 }
 
