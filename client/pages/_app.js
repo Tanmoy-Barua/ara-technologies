@@ -3,8 +3,8 @@ import '../styles/globals.css'
 import "animate.css/animate.min.css";
 import Head from 'next/head'
 import { useEffect } from "react";
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -13,8 +13,6 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 // slick slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

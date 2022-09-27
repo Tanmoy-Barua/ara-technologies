@@ -7,15 +7,15 @@ import { ToastContainer, toast } from 'react-toastify';
   import { Offline, Online } from "react-detect-offline";
 
 // import components
-import Slider from './components/Home/Slider'
-import OurProduct from './components/Home/OurProduct'
-import QualityServices from './components/Home/QualityServices'
-import Ads from './components/Home/ads'
-import ServiceProcess from './components/Home/ServiceProcess'
-import BrandSlider from './components/Home/BrandSlider'
-import AboutCeo from './components/Home/AboutCeo'
-import CorporateCustomer from './components/Home/CorporateCustomer'
-import Client from './components/Home/Client'
+import Slider from '../components/Home/Slider'
+import OurProduct from '../components/Home/OurProduct'
+import QualityServices from '../components/Home/QualityServices'
+import Ads from '../components/Home/ads'
+import ServiceProcess from '../components/Home/ServiceProcess'
+import BrandSlider from '../components/Home/BrandSlider'
+import AboutCeo from '../components/Home/AboutCeo'
+import CorporateCustomer from '../components/Home/CorporateCustomer'
+import Client from '../components/Home/Client'
 
 
 
