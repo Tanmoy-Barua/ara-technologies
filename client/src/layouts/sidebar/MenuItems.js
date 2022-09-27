@@ -2,12 +2,12 @@ const Menuitems = [
   {
     title: "Dashbaord",
     icon: "home",
-    href: "/",
+    href: "/admin/",
   },
   {
     title: "Buttons",
     icon: "disc",
-    href: "/buttons",
+    href: "/admin/buttons",
   },
   {
     title: "Forms",

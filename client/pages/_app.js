@@ -26,6 +26,7 @@ import {useRouter} from 'next/router'
 
 function MyApp({ Component, pageProps }) {
   const {asPath} = useRouter();
+
   console.log(asPath);
   useEffect(() => {
     require("../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -36,7 +37,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
     <link rel="icon" href='/title-cropped-arar-1-32x32.ico'/>
     </Head>
-    {asPath==='/admin'? "" : <Header/>}
+    {asPath==='/admin' ? "" : <Header/>}
       <Component {...pageProps} />
       {asPath==='/admin'? "" : <Footer/>}
     </>
