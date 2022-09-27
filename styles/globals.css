@@ -72,6 +72,14 @@ p{
   --bs-dropdown-padding-y: 0rem!important;
   --bs-dropdown-divider-margin-y: 0rem!important;
 }
+.account{
+  margin-left: 20px;
+  color: grey;
+}
+.account:hover{
+  color: grey;
+
+}
 
 /* shopnow button */
 .btn-shop-now{
@@ -381,11 +389,95 @@ p{
 
 /* common banner */
 .common-banner{
-  /* background-image: url("../public/vendor/images/contact.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100px; */
+  position: relative;
+  /* background-image: url("../public/vendor/images/contact.jpg"); */
+  /* background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
+.common-banner-img img{
+  width: 1920px!important;
+  height: 400px!important;
+  /* background-attachment: fixed; */
+}
+.common-banner-overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 99%;
+  background-color: #00000063;
+  color: white;
+}
+
+.common-banner-overlay h3{
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* contact page */
+.contact-section{
+  margin: 20px 0;
+}
+.address-details ul{
+  margin-left: 20px;
+}
+.address-details ul li{
+  margin: 10px 0;
+}
+.address-details ul li a{
+  color: black;
+}
+.contact-btn{
+  background-color: black!important;
+  color: white!important;
+  padding: 15px 20px!important;
+  font-size: 18px!important;
+}
+.contact-btn:hover{
+  box-shadow: 0 0 10px grey;
+}
+.store-address-heading{
+  margin: 50px 0;
+  text-align: center;
+}
+.store-address-heading h3{
+  color: var(--primary-color);
+}
+.branch-content{
+  width: 50%;
+}
+
+/* team */
+.our-team-section{
+  margin: 40px 0;
+}
+.team-heading{
+  display: flex;
+  align-items: center;
+}
+.team-heading h3{
+  font-size: 34px;
+  font-weight: bold;
+}
+.team-colabs{
+  position: relative;
+}
+.shape-1{
+  position: absolute;
+  top: 0;
+  left: -16%;
+  z-index: -1;
+}
+.shape-2{
+  position: absolute;
+  bottom: -5%;
+  right: -16%;
+  z-index: -1;
+}
+
+/* about section */
+
+
 
 
 @media (max-width: 575.98px) { 
@@ -394,9 +486,9 @@ p{
     width: 100%!important;
     margin: 20px 0;
   }
-  .rocess-item{
+  /* .process-item{
     box-shadow: 0;
-  }
+  } */
   .services-content h4{
     width: 100%;
     font-size: 15px;

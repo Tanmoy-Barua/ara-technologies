@@ -2,17 +2,21 @@ import React from 'react'
 import Image from 'next/image'
 import {Images as ImageLink} from '../components/images'
 
-const CommonBanner = () => {
-    console.log(ImageLink.contactusBanner);
+const CommonBanner = (props) => {
+    
   return (
     <>
         <div className="common-banner">
-            <Image src={ImageLink.contactusBanner} alt="contact" className="w-100"/>
+            <div className="common-banner-img">
+            <Image src={props.image} alt={props.alt}/>
+            </div>
             <div className="common-banner-overlay">
-                <div className="container">
+                <div className="container h-100 d-flex flex-column justify-content-center align-items-center">
                     <div className="row">
                         <div className="col-md-12">
-                            Contact US
+                            <h3 className="text-center">
+                                {props.title}
+                            </h3>
                         </div>
                     </div>
                 </div>

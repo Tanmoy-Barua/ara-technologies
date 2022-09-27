@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Service = (props) => {
   return (
@@ -11,7 +12,9 @@ const Service = (props) => {
               <div className="row">
                 <h4>{props.serviceName}</h4>
                 <div className="service-button text-center mt-4">
-                <a href={props.redirectlink} className="details">Details</a>
+                  <Link href={props.redirectlink}>
+                  <a className="details">Details</a>
+                  </Link>
                 </div>
               </div>
             </div>

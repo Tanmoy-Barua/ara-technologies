@@ -59,6 +59,30 @@ import link3 from '../../public/vendor/images/clients/220px-Link3_Technologies_L
 
 // common banner
 import contactusBanner from '../../public/vendor/images/contact.jpg'
+import galleryBanner from '../../public/vendor/images/gallerybanner.jpg'
+import solutionBanner from '../../public/vendor/images/solution_banner.jpg'
+import aboutBanner from '../../public/vendor/images/ara-family-scaled.jpg'
+import paymentMethodBanner from '../../public/vendor/images/wee.jpg'
+// bank details
+import megnaBank from '../../public/vendor/images/bank/meghna.png'
+import ibblBank from '../../public/vendor/images/bank/ibbl.png'
+import ebl from '../../public/vendor/images/bank/ebl.png'
+import jamuna from '../../public/vendor/images/bank/jamuna.png'
+import brackBank from '../../public/vendor/images/bank/brac.png'
+import dbdl from '../../public/vendor/images/bank/bank-partner.png'
+import ncc from '../../public/vendor/images/bank/ncc.png'
+import bkash from '../../public/vendor/images/bank/bkash.png'
+// showroom
+import dhakaBranch from '../../public/vendor/images/dh-300x171.jpg'
+import chittagongBranch from '../../public/vendor/images/ch-300x169.jpg'
+// team member
+import member1 from '../../public/vendor/images/Team/mds.jpg'
+import member2 from '../../public/vendor/images/Team/coo.jpg'
+import member3 from '../../public/vendor/images/Team/direc.jpg'
+// shapes
+import shape1 from '../../public/vendor/images/shape/shape-1.svg'
+import shape2 from '../../public/vendor/images/shape/shape-2.svg'
+
 
 export const Images = {
     TitleIcon,
@@ -111,5 +135,24 @@ export const Images = {
     brackngo,
     gp,
     link3,
-    contactusBanner
+    contactusBanner,
+    galleryBanner,
+    solutionBanner,
+    aboutBanner,
+    paymentMethodBanner,
+    megnaBank,
+    ibblBank,
+    ebl,
+    jamuna,
+    brackBank,
+    dbdl,
+    ncc,
+    bkash,
+    dhakaBranch,
+    chittagongBranch,
+    member1,
+    member2,
+    member3,
+    shape1,
+    shape2,
 }

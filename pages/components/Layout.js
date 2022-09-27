@@ -7,6 +7,7 @@ import {useRouter} from 'next/router'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-regular-svg-icons';
 import {
   faSquareFacebook,
   faTwitter,
@@ -108,9 +109,11 @@ const Layout = ({children}) => {
                 </a>
                 <ul className="dropdown-menu">
                 <li>
-                    <a className="dropdown-item" href="#">
+                <Link aria-current="page" href="/about">
+                    <a className="dropdown-item">
                     About Us
                     </a>
+                  </Link>
                 </li>
                 <li>
                     <hr className="dropdown-divider" />
@@ -124,17 +127,21 @@ const Layout = ({children}) => {
                     <hr className="dropdown-divider" />
                 </li>
                 <li>
-                    <a className="dropdown-item" href="#">
+                <Link aria-current="page" href="/our-team">
+                    <a className="dropdown-item">
                     Our Team
                     </a>
+                  </Link>
                 </li>
                 <li>
                     <hr className="dropdown-divider" />
                 </li>
                 <li>
-                    <a className="dropdown-item" href="#">
+                <Link aria-current="page" href="/payment-methods">
+                    <a className="dropdown-item">
                     Pay Now
                     </a>
+                  </Link>
                 </li>
                 </ul>
             </li>
@@ -162,6 +169,9 @@ const Layout = ({children}) => {
         <Link href="/products">
             <a className="btn-shop-now">Shop Now</a>
         </Link>
+        {/* <Link href="/my-account">
+            <a className="account"><FontAwesomeIcon icon={faUser} /> My Account</a>
+        </Link> */}
       </div>
     </div>
   </nav>

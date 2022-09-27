@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import {Images as ImageLink} from '../images'
 import ProductSlider from './ProductSlider'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
@@ -23,9 +24,19 @@ const OurProduct = () => {
 
             <div className="row">
               <div className="col-md-12">
+              <ScrollAnimation animateIn="bounceInLeft"
+            animateOut="fadeLeft"
+            duration={0.5}
+            delay={0}>
                 <ProductSlider dataaos="fade-left" slidesToScrollValue = "-1" AnimationClass="animate__fadeInLeft"/>
+              </ScrollAnimation>
                 <br />
+                <ScrollAnimation animateIn="bounceInRight"
+            animateOut="fadeRight"
+            duration={0.5}
+            delay={0}>
                 <ProductSlider dataaos="fade-right" slidesToScrollValue = "1" AnimationClass="animate__fadeInRight"/>
+              </ScrollAnimation>
                 <br />
                 <div className="text-center">
                   <Link href="/products">

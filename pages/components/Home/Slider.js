@@ -45,7 +45,7 @@ const Slider = () => {
     </div> */}
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <Image src={ImageLink.Slider1} className="d-block w-100" alt="Slider 1" />
+        <Image src={ImageLink.Slider1} className="d-block w-100 img-fluid" alt="Slider 1" />
       </div>
       <div className="carousel-item">
         <Image src={ImageLink.Slider2} className="d-block w-100" alt="Slider 2" />
